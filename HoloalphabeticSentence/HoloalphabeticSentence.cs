@@ -16,6 +16,7 @@ namespace HoloalphabeticSentence
                 if (str.Contains(alphabets[i]) == false)
                 {
                     return check = false;
+
                 }
             }
             return check;   
