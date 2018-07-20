@@ -10,7 +10,6 @@ namespace HoloalphabeticSentence
         {
             bool check=true;
             string str = input.ToLower();
-
             for(int i=0; i<26; i++)
             {
                 if (str.Contains(alphabets[i]) == false)
